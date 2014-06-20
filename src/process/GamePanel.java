@@ -5,14 +5,11 @@ import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.event.KeyAdapter;
+
 import javax.swing.JPanel;
 
+@SuppressWarnings("serial")
 public class GamePanel extends JPanel implements Runnable {
-
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
 	
 	private static final int FPS = 60;
 	private static final long PERIOD = (1000000000/FPS);
