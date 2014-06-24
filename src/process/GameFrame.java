@@ -5,8 +5,12 @@ import java.awt.event.WindowListener;
 
 import javax.swing.JFrame;
 
-@SuppressWarnings("serial")
 public class GameFrame extends JFrame implements WindowListener {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	public static void main (String[] poop) {
 		new GameFrame();
